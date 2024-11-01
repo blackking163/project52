@@ -1,0 +1,46 @@
+.hero__wrap{
+    display: flex;
+ 
+}
+
+.hero__card{
+    border: 10px solid white;
+    height: 400px;
+    background-color: lightgray;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    writing-mode: vertical-rl;
+
+    flex-grow: 1;
+    transition: 0.5s;
+    margin-right: auto;
+
+    max-width: 400px;
+
+    &:hover {
+        flex-grow: 3;
+
+        h2{
+
+        }
+
+
+        width: 100%;
+        letter-spacing:0px;
+    }
+
+    h2{
+        transition: 1s;
+        margin-top: auto;
+        writing-mode: horizontal-tb ;
+
+        letter-spacing: 30px;
+        width: 30px;
+        overflow: hidden;
+        white-space: nowrap ;
+    }
+}
